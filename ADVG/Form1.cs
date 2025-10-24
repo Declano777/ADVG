@@ -622,7 +622,7 @@ namespace ADVG
             textLable.Text = "A light shines from the king’s body...";
             textLable.Refresh();
             Thread.Sleep(5000);
-            textLable.Text = "He was possessed by a cursed amulet.";
+            textLable.Text = "He was possessed by a cursed amulet.";// dio
             textLable.Refresh();
             Thread.Sleep(5000);
             textLable.Text = "You must choose: take the amulet or destroy it.";
