@@ -121,6 +121,7 @@
             // 
             this.textLable.BackColor = System.Drawing.Color.Transparent;
             this.textLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textLable.ForeColor = System.Drawing.Color.White;
             this.textLable.Location = new System.Drawing.Point(100, 191);
             this.textLable.Name = "textLable";
             this.textLable.Size = new System.Drawing.Size(732, 164);
@@ -323,7 +324,7 @@
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(106, 97);
             this.saveButton.TabIndex = 24;
-            this.saveButton.Text = "Save the Kingdome";
+            this.saveButton.Text = "Save the kingdom";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Visible = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);

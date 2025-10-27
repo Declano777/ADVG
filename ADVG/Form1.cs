@@ -513,6 +513,7 @@ namespace ADVG
         // --- After defeating Grons ---
         private void afterGronBattle()
         {
+            textLable.ForeColor = Color.Black;
             s1.Image = Properties.Resources.avg4th;
             s1.Refresh();
             battle.Stop();
@@ -545,6 +546,7 @@ namespace ADVG
             textLable.Text = "You confront him in a final duel!";
             textLable.Refresh();
             Thread.Sleep(5000);
+            textLable.ForeColor = Color.White;
             s1.Image = Properties.Resources.avg6th;
             s1.Refresh();
             battle.PlayLooping();
